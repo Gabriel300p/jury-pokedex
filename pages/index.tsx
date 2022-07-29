@@ -4,7 +4,10 @@ import React from "react";
 export default function Home() {
   return (
     <>
-      <div className="text-2xl text-red-200">Hello World</div>
+      <div className="h-screen w-screen flex flex-col">
+        <div className=""></div>
+        <div className=""></div>
+      </div>
     </>
   );
 }
